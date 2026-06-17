@@ -1,0 +1,71 @@
+# Build directories
+build/
+cmake_build/
+dist/
+obj/
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+*.cmake
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.user
+*.xcodeproj/
+*.xcworkspace/
+.vs/
+*.VC.db
+*.sln
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Generated test files
+output.pcap
+test_dpi.pcap
+*.pcap
+
+# Compiler outputs
+compile_commands.json
+
+# Dependencies
+lib/
+include/*/
+!include/*.h
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
